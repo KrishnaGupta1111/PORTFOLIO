@@ -12,7 +12,7 @@ const Achievements = () => {
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center gap-8">
         {/* Achievement Image with hover effect */}
-        <div className="w-64 h-64 bg-gray-800 rounded-lg overflow-hidden mb-6 md:mb-0 border border-white shadow-2xl transition-transform duration-300 hover:scale-105 hover:shadow-purple-500/50 cursor-pointer">
+        <div className="w-80 h-80 bg-gray-800 rounded-lg overflow-hidden mb-6 md:mb-0 border border-white shadow-2xl transition-transform duration-300 hover:scale-105 hover:shadow-purple-500/50 cursor-pointer">
           <img
             src="/assets/tech_logo/formidium.jpeg"
             alt="Formidium Achievement"

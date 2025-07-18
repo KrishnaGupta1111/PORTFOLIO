@@ -43,7 +43,7 @@ const Experience = () => {
 
               {/* Experience Card */}
               <div
-                className={`relative w-full md:max-w-[calc(50%-30px)] p-4 md:p-6 rounded-2xl shadow-2xl border border-white bg-gray-900/90 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.2)] transition-transform duration-300 hover:scale-[1.03] ${
+                className={`relative w-full md:max-w-[calc(50%-30px)] p-4 md:p-6 rounded-2xl shadow-2xl border border-white bg-gray-900/90 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.2)] transition-transform duration-300 hover:scale-[1.03] hover:shadow-purple-500/50 ${
                   index % 2 === 0
                     ? "mt-16 md:mt-0 ml-11 md:ml-0 md:mr-[18px]"
                     : "mt-16 md:mt-0 ml-11 md:ml-[18px]"

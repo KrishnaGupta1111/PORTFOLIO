@@ -1,8 +1,10 @@
 import Tilt from "react-parallax-tilt";
 import profileImage from "../../assets/krishna.png";
 import ReactTypingEffect from "react-typing-effect";
+import useIsMobile from "../../hooks/useIsMobile";
 
 const About = () => {
+  const isMobile = useIsMobile();
   return (
     <section
       id="about"
@@ -62,21 +64,35 @@ const About = () => {
         </div>
         {/* Right Side */}
         <div className="md:w-1/2 flex justify-center md:justify-end  ">
-          <Tilt
-            className="w-60 h-60 sm:w-45 sm:h-45 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
-            tiltMaxAngleX={20}
-            tiltMaxAngleY={20}
-            perspective={1000}
-            scale={1.05}
-            transitionSpeed={1000}
-            gyroscope={true}
-          >
+          {isMobile ? (
             <img
               src={profileImage}
               alt="Krishna Gupta"
-              className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
+              className="rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)] border-4 border-purple-700"
+              style={{
+                maxWidth: "250px",
+                maxHeight: "250px",
+                width: "100%",
+                height: "auto",
+              }}
             />
-          </Tilt>
+          ) : (
+            <Tilt
+              className="w-60 h-60 sm:w-45 sm:h-45 md:w-[26rem] md:h-[26rem] border-4 border-purple-700 rounded-full"
+              tiltMaxAngleX={20}
+              tiltMaxAngleY={20}
+              perspective={1000}
+              scale={1.05}
+              transitionSpeed={1000}
+              gyroscope={true}
+            >
+              <img
+                src={profileImage}
+                alt="Krishna Gupta"
+                className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
+              />
+            </Tilt>
+          )}
         </div>
       </div>
     </section>
