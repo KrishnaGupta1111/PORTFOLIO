@@ -107,7 +107,7 @@ export const experiences = [
   {
     id: 0,
     img: metLogo,
-    role: "Fullstack Developer",
+    role: "Software Engineer Intern (SDE Intern)",
     company: "MetaBlock Technologies Pvt. Ltd.",
     date: "May 2025 - August 2025",
     desc: "Developed dynamic and scalable web applications using the MERN stack, contributing to both frontend and backend development. Integrated custom AI-powered chatbots into websites to enhance user interaction and automate responses. Collaborated with cross-functional teams to design responsive user interfaces, implement RESTful APIs, and ensure optimal application performance in an agile development environment.",
@@ -261,13 +261,14 @@ export const projects = [
 
   {
     id: 4,
-    title: "Task Reminder Chrome Extension Tool",
+    title: "Imaginex : AI Powered Text-to-Image Generator",
     description:
-      "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
+      "Imaginex is a full-stack SaaS application that allows users to generate high-quality images from text prompts using the power of Gemini AI. Designed with a clean and intuitive UI, Imaginex offers a seamless user experience for both casual users and creative professionals.",
     image: taskremLogo,
     tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+    github:
+      "https://github.com/KrishnaGupta1111/Imaginex---AI-Powered-Text-to-Image-Generator-",
+    webapp: "https://imaginexx.vercel.app/",
   },
   {
     id: 5,
@@ -289,24 +290,5 @@ export const projects = [
     github: "https://codingmasterweb.in/",
     webapp: "https://codingmasterweb.in/",
   },
-  {
-    id: 7,
-    title: "Image Search App",
-    description:
-      "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-    image: imagesearchLogo,
-    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Search-App",
-    webapp: "https://imagsearch.netlify.app/",
-  },
-  {
-    id: 8,
-    title: "Image Background Remover",
-    description:
-      "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-    image: removebgLogo,
-    tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Background-Remover",
-    webapp: "https://removeyourbg.netlify.app/",
-  },
+  
 ];
