@@ -35,9 +35,12 @@ import vpsLogo from "./assets/education_logo/mps.png";
 import mpsLogo from "./assets/education_logo/mps.png";
 
 // Project Section Logo's
-import csprepLogo from "./assets/work_logo/cs_prep.png";
-import movierecLogo from "./assets/work_logo/movie_rec.png";
-import taskremLogo from "./assets/work_logo/task_rem.png";
+import csprepLogo from "./assets/work_logo/proj1.png";
+import movierecLogo from "./assets/work_logo/proj2.png";
+import abcLogo from "./assets/work_logo/proj7.png";
+import bcdLogo from "./assets/work_logo/proj4.png";
+import cdeLogo from "./assets/work_logo/proj5.png";
+import defLogo from "./assets/work_logo/movie_rec.png"
 import webverLogo from "./assets/work_logo/web_dig.png";
 import cmLogo from "./assets/work_logo/cm.png";
 import imagesearchLogo from "./assets/work_logo/image_search.png";
@@ -172,15 +175,7 @@ export const education = [
     desc: "Completed my Class 10th from CBSE board with excellent academic performance.",
     degree: "Class 10th (CBSE)",
   },
-  {
-    id: 3,
-    img: vpsLogo,
-    school: "Vatsalya Public School Govardhan, Mathura",
-    date: "Apr 2015 - March 2016",
-    grade: "87.5%",
-    desc: "Completed Class 10th with a strong academic foundation under the CBSE board. Strengthened analytical, logical, and problem-solving skills through core subjects like Mathematics and Science.",
-    degree: "CBSE(X), Science with Computer Application",
-  },
+  
 ];
 
 export const projects = [
@@ -203,14 +198,14 @@ export const projects = [
       "Cloudinary",
     ],
     github: "https://github.com/KrishnaGupta1111/MovieBooking",
-    webapp: "https://cinebook11.vercel.app/",
+    webapp: "https://cinebookk.vercel.app/",
   },
   {
     id: 1,
     title: "ConciseDocs - AI Powered PDF Summarizer",
     description:
       "An AI-powered web application that enables users to upload PDFs and receive concise, accurate summaries. Built with Next.js and TypeScript, it uses LangChain for document parsing and OpenAI for summarization. ConciseDocs offers a seamless experience for students, researchers, and professionals to extract key insights from lengthy documents instantly.",
-    image: csprepLogo,
+    image: movierecLogo,
     tags: [
       "Next.js",
       "TypeScript",
@@ -234,7 +229,7 @@ export const projects = [
     title: "ChatScape - Real-Time Chat Application",
     description:
       "A full-stack real-time chat application built with the MERN stack, featuring instant messaging, WebRTC-based audio and video calling, and secure JWT authentication. ChatScape uses Socket.IO for real-time communication, offering a smooth and interactive user experience with features like live typing indicators, online status, and chat history.",
-    image: movierecLogo,
+    image: abcLogo,
     tags: [
       "MongoDB",
       "Express.js",
@@ -253,10 +248,10 @@ export const projects = [
     title: "Movie Recommendation App",
     description:
       "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-    image: movierecLogo,
+    image: defLogo,
     tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    github: "",
+    webapp: "",
   },
 
   {
@@ -264,7 +259,7 @@ export const projects = [
     title: "Imaginex : AI Powered Text-to-Image Generator",
     description:
       "Imaginex is a full-stack SaaS application that allows users to generate high-quality images from text prompts using the power of Gemini AI. Designed with a clean and intuitive UI, Imaginex offers a seamless user experience for both casual users and creative professionals.",
-    image: taskremLogo,
+    image: bcdLogo,
     tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
     github:
       "https://github.com/KrishnaGupta1111/Imaginex---AI-Powered-Text-to-Image-Generator-",
@@ -272,23 +267,14 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Webverse Digital",
+    title: "BlogBytes - AI Blog Generation Blog Website",
     description:
       "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-    image: webverLogo,
+    image: cdeLogo,
     tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-    github: "https://github.com/codingmastr/Webverse-Digital",
-    webapp: "https://webversedigital.com/",
-  },
-  {
-    id: 6,
-    title: "Coding Master",
-    description:
-      "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-    image: cmLogo,
-    tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-    github: "https://codingmasterweb.in/",
-    webapp: "https://codingmasterweb.in/",
+    github:
+      "https://github.com/KrishnaGupta1111/BlogBytes-AI-Powered-Blogging-Platform-",
+    webapp: "https://blogbytesai.vercel.app/",
   },
   
 ];
